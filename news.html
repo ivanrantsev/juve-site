@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News</title>
+    <link rel="shortcut icon" href="img\titlelogo.svg" type="image/svg">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/news.css">
+</head>
+<body>
+    <input class="modalwindow__check" type="checkbox" id="modalwindow"/>
+    <div class="modalwindow">
+        <label class="modalwindow__closetwo" for="modalwindow"></label>
+        <div class="modalwindow__info">
+            <label class="modalwindow__close" for="modalwindow">&times;</label>
+            <form class="modalwindow__login__form">
+                <input type="email" placeholder="Enter email">
+                <input type="password" placeholder="Enter password">
+                <button class = "login__button" autofocus type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+        
+    <nav class="navmenu">
+        <input class="navmenu__check" type="checkbox" id="showmenu"/>
+        <label class="navmenu__showmenu" for="showmenu">&#9776;</label>
+        <ul class="toggler__menu">
+            <li><a class="toggler__menu__item" href="index.html"><img class = "toggler__menu__logo" src="img\518px-Juventus_FC_2017_logo_(white).svg.png"></a></li>
+            <li><a class="toggler__menu__item active__li" href="news.html">News</a></li>
+            <li><a class="toggler__menu__item" href="players.html">Players</a></li>
+            <li><a class="toggler__menu__item" href="team.html">Team</a></li>
+            <li class="toggler__menu__item"><label for="modalwindow" class="modal-button">LOGIN</label></li>
+        </ul>
+    </nav>
+
+    <div class="cards">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/ramseysteal.jpg);"><p>Aaron Ramsey nabs goal from Cristiano Ronaldo</p></a>                
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/costa_goal.jpg);"><p>Super-sub Douglas Costa!</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/bon_lokJ.jpg);"><p>Post-match comments from the RZD Arena</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/stadio_lokomotiv01.jpg);"><p>Tonight's host: RZD Arena</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/confjuve06.jpg);"><p>Sarri: “Goal is to qualify”</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/supercoppa10.jpg);"><p>Italian Super Cup to be played 22 December in Riyadh</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/Cover_960x540.jpg);"><p>Juve-Atletico, general tickets on sale!</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/opp_lokomotiv01.jpg);"><p>#EuroWatch: Group D's opponents</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/all161003.jpg);"><p>Off day for Juve</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/WhatsApp.jpeg);"><p>#StatOfTheGame⎮De Ligt like Davids</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/toroj_match.jpg);"><p>Turin is black and white!</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/loghitoroj.jpg);"><p>#InNumbers | Toro-Juve</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/batch__J013489.jpg);"><p>Sarri: "Derby is a special game"</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/news_122.png);"><p>Happy Birthday, Juventus!</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/TeamJAy.jpg);"><p>Juventus launches its first-ever international animated kids series, Team Jay</p></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <a href="#" class="card" style="background-image: url(img/news/ronaldo_301019.jpg);"><p>Juve snatch late win vs Genoa</p></a>
+            </div>
+        </div>
+        <div class="row center-xs">
+            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-1">
+                <a class="more" href="#">MORE</a>
+            </div>
+        </div>
+    </div>
+
+    <div class = "footer">
+        <a href="https://www.facebook.com/juventus"><img src="img/facebook-circular-logo.svg"></a>
+        <a href="https://instagram.com/juventus"><img src="img/instagram.svg"></a>
+        <a href="https://www.youtube.com/juventus"><img src="img/youtube.svg"></a>
+        <a href="https://www.twitter.com/juventusfc"><img src="img/twitter.svg"></a>
+        <a href="https://www.linkedin.com/company/9341955/"><img src="img/linkedin.svg"></a>
+        <a href="https://vk.com/juve_club"><img src="img/vk-social-logotype.svg"></a>
+    </div>
+</body>
+</html>

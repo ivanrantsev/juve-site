@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Black.ttf);
+}
+
+.cards > .row {
+    margin: 0;
+}
+
+.cards > .row:last-child {
+    margin-top: 10px;
+}
+
+.cards>.row:first-child > div {
+    height: 15vw;
+    padding: 0;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    user-select: none;
+    background-size: 125%;
+    transition: 1s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    background-size: 150%;
+}
+
+.card p {
+    font-family: Roboto;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.cards>.row:last-child > div {
+    padding: 0;
+}
+
+.more {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.more:hover {
+    opacity: 0.4;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .cards > .row:first-child > div:last-child {
+        display: none;
+    }
+    .cards>.row:first-child > div {
+        height: 25vw;
+    }
+}
+
+@media (max-width: 575px) {
+    .cards>.row:first-child > div {
+        height: 65vw;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .cards>.row:first-child > div {
+        height: 38vw;
+    }
+}
+
+

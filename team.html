@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img\titlelogo.svg" type="image/svg">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/team.css">
+    <title>Team</title>
+</head>
+<body>
+    <input class="modalwindow__check" type="checkbox" id="modalwindow"/>
+    <div class="modalwindow">
+        <label class="modalwindow__closetwo" for="modalwindow"></label>
+        <div class="modalwindow__info">
+            <label class="modalwindow__close" for="modalwindow">&times;</label>
+            <form class="modalwindow__login__form">
+                <input type="email" placeholder="Enter email">
+                <input type="password" placeholder="Enter password">
+                <button class = "login__button" autofocus type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+        
+    <nav class="navmenu">
+        <input class="navmenu__check" type="checkbox" id="showmenu"/>
+        <label class="navmenu__showmenu" for="showmenu">&#9776;</label>
+        <ul class="toggler__menu">
+            <li><a class="toggler__menu__item" href="index"><img class = "toggler__menu__logo" src="img\518px-Juventus_FC_2017_logo_(white).svg.png"></a></li>
+            <li><a class="toggler__menu__item" href="news.html">News</a></li>
+            <li><a class="toggler__menu__item" href="players.html">Players</a></li>
+            <li><a class="toggler__menu__item active__li" href="team.html">Team</a></li>
+            <li class="toggler__menu__item"><label for="modalwindow" class="modal-button">LOGIN</label></li>
+        </ul>
+    </nav>
+
+    <div class="jfc">
+        <div>
+            <p>Juventus football club</p>
+        </div>
+    </div>
+
+    <div class = "contacts">
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="contacts__card" style="background-image: url(img/team/epoca16.jpg)"><p>History</p></a>                
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="contacts__card" style="background-image: url(img/team/183449893.0.jpg)"><p>Mission</p></a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="contacts__card" style="background-image: url(img/team/stadium.png)"><p>Stadium</p></a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="contacts__card" style="background-image: url(img/team/museum.jpg)"><p>Museum</p></a>
+            </div>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2815.7234847216155!2d7.6320745150108955!3d45.11167307909839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886c04e4fc872f%3A0xb6e0f9821c2323cf!2sJuventus%20Headquarter!5e0!3m2!1sru!2sru!4v1573223817462!5m2!1sru!2sru" width="100%" height="100%" zoom="8" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+
+    <div class = "footer">
+        <a href="https://www.facebook.com/juventus"><img src="img/facebook-circular-logo.svg"></a>
+        <a href="https://instagram.com/juventus"><img src="img/instagram.svg"></a>
+        <a href="https://www.youtube.com/juventus"><img src="img/youtube.svg"></a>
+        <a href="https://www.twitter.com/juventusfc"><img src="img/twitter.svg"></a>
+        <a href="https://www.linkedin.com/company/9341955/"><img src="img/linkedin.svg"></a>
+        <a href="https://vk.com/juve_club"><img src="img/vk-social-logotype.svg"></a>
+    </div>
+</body>
+</html>
