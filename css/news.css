@@ -28,7 +28,7 @@
     align-items: flex-end;
     user-select: none;
     background-size: 125%;
-    transition: 1s ease;
+    transition: .3s ease;
     overflow: hidden;
 }
 
